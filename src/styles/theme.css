@@ -1,0 +1,196 @@
+/* =========================================
+   THEME - SISTEMA DE DISEÑO
+   E-commerce
+   ========================================= */
+
+:root {
+
+    /* -------------------------------------
+       PALETA DE COLORES
+       ------------------------------------- */
+
+    /* Faded Copper */
+    --faded-copper-500: #a48065;
+    --faded-copper-600: #b79a84;
+    --faded-copper-700: #c9b3a2;
+    --faded-copper-800: #dbccc1;
+    --faded-copper-900: #ede6e0;
+
+    /* Olive Wood */
+    --olive-wood-500: #7d614d;
+    --olive-wood-600: #a28067;
+    --olive-wood-700: #b9a08d;
+    --olive-wood-800: #d0bfb3;
+    --olive-wood-900: #e8dfd9;
+
+    /* Deep Walnut */
+    --deep-walnut-500: #513c2c;
+    --deep-walnut-600: #856247;
+    --deep-walnut-700: #af886a;
+    --deep-walnut-800: #c9af9c;
+    --deep-walnut-900: #e4d7cd;
+
+    /* Dark Coffee */
+    --dark-coffee-500: #28190e;
+    --dark-coffee-600: #6d4426;
+    --dark-coffee-700: #b06d3e;
+    --dark-coffee-800: #d09d79;
+    --dark-coffee-900: #e7cebc;
+
+    /* Night Bordeaux */
+    --night-bordeaux-500: #501a1b;
+    --night-bordeaux-600: #8e2e30;
+    --night-bordeaux-700: #c4484b;
+    --night-bordeaux-800: #d88587;
+    --night-bordeaux-900: #ebc2c3;
+
+    /* Brown Red */
+    --brown-red-500: #95282e;
+    --brown-red-600: #c8353c;
+    --brown-red-700: #d7676c;
+    --brown-red-800: #e4999d;
+    --brown-red-900: #f2ccce;
+
+    /* Sunlit Clay */
+    --sunlit-clay-500: #eab464;
+    --sunlit-clay-600: #eec281;
+    --sunlit-clay-700: #f2d2a1;
+    --sunlit-clay-800: #f6e1c0;
+    --sunlit-clay-900: #fbf0e0;
+
+    /* Pale Oak */
+    --pale-oak-500: #e8d5ba;
+    --pale-oak-600: #edddc8;
+    --pale-oak-700: #f1e6d6;
+    --pale-oak-800: #f6eee3;
+    --pale-oak-900: #faf7f1;
+
+    /* Shadow Grey */
+    --shadow-grey-500: #37323e;
+    --shadow-grey-600: #5e556a;
+    --shadow-grey-700: #857b95;
+    --shadow-grey-800: #aea7b8;
+    --shadow-grey-900: #d6d3dc;
+
+
+    /* -------------------------------------
+       SEMANTIC COLORS
+       ------------------------------------- */
+
+    /* Background */
+    --background-1: #faf7f1;
+    --background-2: #f6eee3;
+    --background-3: #e8d5ba;
+
+    /* Text */
+    --foreground: #28190e;
+    --muted: #7d614d;
+
+    /* Brand */
+    --primary: #513c2c;
+    --primary-hover: #7d614d;
+    --primary-foreground: #faf7f1;
+
+    /* Accent */
+    --accent: #a48065;
+    --accent-secondary: #eab464;
+
+    /* Feedback */
+    --info: #5e556a;
+    --success: #7d614d;
+    --warning: #eab464;
+    --danger: #95282e;
+
+    /* Borders */
+    --border: #dbccc1;
+
+
+    /* -------------------------------------
+       TYPOGRAPHY
+       ------------------------------------- */
+
+    --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 1.75rem;
+    --font-size-2xl: 2rem;
+    --font-size-3xl: 2.5rem;
+
+
+    /* -------------------------------------
+       SPACING
+       ------------------------------------- */
+
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-2xl: 48px;
+    --space-3xl: 64px;
+
+
+    /* -------------------------------------
+       BORDER RADIUS
+       ------------------------------------- */
+
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-full: 9999px;
+
+
+    /* -------------------------------------
+       SHADOWS
+       ------------------------------------- */
+
+    --shadow-sm: 0 2px 6px rgba(40, 25, 14, 0.08);
+    --shadow-md: 0 4px 12px rgba(40, 25, 14, 0.12);
+    --shadow-lg: 0 8px 24px rgba(40, 25, 14, 0.16);
+
+}
+
+
+/* =========================================
+   DARK MODE
+   ========================================= */
+
+.dark {
+
+    /* Background */
+    --background-1: #110c09;
+    --background-2: #211812;
+    --background-3: #32251b;
+
+    /* Text */
+    --foreground: #faf7f1;
+    --muted: #c9af9c;
+
+    /* Brand */
+    --primary: #b79a84;
+    --primary-hover: #c9b3a2;
+    --primary-foreground: #110c09;
+
+    /* Accent */
+    --accent: #d09d79;
+    --accent-secondary: #eab464;
+
+    /* Feedback */
+    --info: #aea7b8;
+    --success: #a28067;
+    --warning: #eab464;
+    --danger: #d7676c;
+
+    /* Borders */
+    --border: #423124;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4);
+
+}
